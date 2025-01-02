@@ -1363,45 +1363,19 @@ display: none;
     align-items: end;
 }
 
-
-
-
-/* ====== */
-
-
-/* Basic accordion styling */
-.accordion {
-    margin: 10px 0;
-  }
-  
-  .accordion_head {
-    background-color: #f1f1f1;
-    padding: 10px;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .accordion_head h3 {
-    margin: 0;
-  }
-  
-  .accordion_icon {
-    transition: transform 0.3s ease;
-  }
-  
-  .accordion_icon.active {
-    transform: rotate(180deg);
-  }
-  
-  .accordion_answer {
+.accoundion_answer{
     display: none;
-    padding: 10px;
-    background-color: #f9f9f9;
-  }
-  
-  .accordion_answer.active {
+}
+.accoundion_answer.active{
     display: block;
-  }
+}
+
+.accoundions_answers{
+    display: none;
+}
+.accoundions_answers.active{
+    display: block;
+}
+
+
   

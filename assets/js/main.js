@@ -57,3 +57,37 @@ close.addEventListener("click", function () {
   navbar.classList.remove("active");
 });
 
+// accordion script
+const accoundion_head = document.querySelectorAll(".accoundion_head");
+const accoundion_answer = document.querySelectorAll(".accoundion_answer");
+accoundion_head.forEach((accoundion_head, index) => {
+  accoundion_head.addEventListener("click", function () {
+
+    accoundion_answer.forEach((answer, i) => {
+      if (i !== index) {
+        answer.classList.remove("active");
+      }
+    });
+
+    accoundion_answer[index].classList.toggle("active");
+  });
+});
+
+// fAQ section
+
+const accoundions_question = document.querySelectorAll(".accoundions_question");
+const accoundions_answers = document.querySelectorAll(".accoundions_answers");
+accoundions_question.forEach((accoundions_question, index) => {
+  accoundions_question.addEventListener("click", function () {
+
+    accoundion_answer.forEach((answer, i) => {
+      if (i !== index) {
+        answer.classList.remove("active");
+      }
+    });
+
+    accoundions_answers[index].classList.toggle("active");
+  });
+});
+
+
