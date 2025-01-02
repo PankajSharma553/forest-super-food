@@ -1,0 +1,651 @@
+/* media qury 1200 */
+@media (max-width:1200px) {
+    .heading {
+        font-size: 40px;
+    }
+
+    .ingradient_content .heading {
+        margin-bottom: 40px;
+    }
+
+    .banner_desc {
+        margin-bottom: 24px;
+    }
+
+    .faq {
+        padding-block: 80px;
+    }
+
+    .banner {
+        margin-bottom: 80px;
+    }
+
+    .ingradient_list {
+        margin-top: 40px;
+    }
+
+    .reviews_topBar p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .details_content {
+        max-width: 90%;
+        padding-block: 50px;
+    }
+
+    .reviews_topBar .heading {
+        font-size: 32px;
+        margin-bottom: 28px;
+    }
+
+    .ingradient_content {
+        max-width: 90%;
+        margin: 0 auto;
+        width: 100%;
+        padding-block: 50px;
+    }
+
+    .details,
+    .reason,
+    .ingradient,
+    .product,
+    .faq,
+    .reviews {
+        margin-bottom: 80px;
+    }
+
+    .reason_wrapper .heading {
+        margin-bottom: 50px;
+    }
+
+    .btn_cart {
+        margin-top: 40px;
+    }
+
+    .reason_inner {
+        flex-wrap: wrap;
+    }
+
+    .reason_sec {
+        max-width: 30%;
+    }
+
+    .banner_tabBtns {
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        padding-block: 50px 80px;
+    }
+}
+
+/* media qury 1024 */
+@media (max-width:1024px) {
+    .topBar {
+        padding-block: 16px;
+    }
+
+    .ingradient_content {
+        padding-block: 24px;
+    }
+
+    .banner_desc {
+        margin-bottom: 20px;
+    }
+
+    .ingradient_RightTitle {
+        margin-bottom: 24px;
+    }
+
+    .reviews_topBar p {
+        margin-bottom: 28px;
+    }
+
+    .ingradient_desc {
+        margin-bottom: 20px;
+    }
+
+    .btn_seeAll {
+        margin: 20px auto auto;
+    }
+
+    .reviews_info {
+        padding-block: 24px;
+    }
+
+    .faq {
+        padding-block: 60px;
+    }
+    .product_title {
+        margin-bottom: 16px;
+    }
+    .faq_inner {
+        padding: 16px 40px;
+        margin-bottom: 40px;
+    }
+
+    .faq_wrapper .heading {
+        margin-bottom: 40px;
+        font-size: 32px;
+    }
+
+    .banner {
+        margin-bottom: 60px;
+    }
+
+    .ingradient_list {
+        margin-top: 32px;
+    }
+
+    .details,
+    .reason,
+    .ingradient,
+    .product,
+    .faq,
+    .reviews {
+        margin-bottom: 60px;
+    }
+
+    .reason_wrapper .heading {
+        margin-bottom: 40px;
+        font-size: 28px;
+    }
+
+    .ingradient_content .heading {
+        margin-bottom: 32px;
+    }
+
+    .banner_list {
+        margin-bottom: 12px;
+    }
+
+    .details_content {
+        padding-block: 32px;
+    }
+
+    .banner_tabBtns {
+        margin-bottom: 28px;
+    }
+
+    .btn_cart {
+        margin-top: 32px;
+    }
+
+    .banner_product--subscribe {
+        margin-bottom: 16px;
+    }
+
+    #Frequency {
+        margin-bottom: 16px;
+    }
+
+    .heading {
+        font-size: 32px;
+    }
+
+    .reviews_details {
+        margin-bottom: 20px;
+    }
+
+    .details_content .heading {
+        margin-bottom: 16px;
+    }
+
+    .details_desc {
+        margin-bottom: 16px;
+    }
+
+    .details_title {
+        margin-bottom: 12px;
+    }
+
+    .banner_wrapper {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .banner_heading {
+        font-size: 28px;
+    }
+
+    .banner_left {
+        max-width: 100%;
+    }
+
+    .banner_right {
+        max-width: 100%;
+    }
+
+    .reviews_customerWrap {
+        flex-wrap: wrap;
+    }
+
+    .reviews_customerCntr {
+        max-width: 49%;
+        padding-inline: 10px;
+        border: none;
+    }
+
+    .reviews_customerLft {
+        max-width: 50%;
+    }
+
+    .reviews_customerRgt {
+        max-width: 100%;
+    }
+
+    .footer {
+        padding-block: 48px 70px;
+    }
+}
+
+/* media qury 991 */
+@media (max-width:991px) {
+    .navbar {
+        position: fixed;
+        height: 100%;
+        top: 0;
+        z-index: 999;
+        padding: 24px 0px 0px 16px;
+        right: 0;
+        transform: translateX(100%);
+        max-width: 350px;
+        width: 100%;
+        transition: 0.3s ease-in-out;
+        background-color: var(--black-color);
+    }
+
+    .navbar.active {
+        right: 0;
+        transform: translateX(0%);
+    }
+
+    .header_list {
+        flex-direction: column;
+        gap: 24px;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .header_link {
+        color: var(--white-color);
+    }
+
+    .header_linkIcon {
+        filter: invert(1);
+    }
+
+    .header_right {
+        flex-direction: row-reverse;
+        gap: 16px;
+    }
+
+    .header_details {
+        gap: 16px;
+    }
+
+    .header_left {
+        max-width: 20%;
+    }
+
+    .header {
+        padding-block: 16px;
+        margin-bottom: 20px;
+    }
+
+    .humburger_menu {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .close_iocn {
+        position: absolute;
+        top: 3%;
+        right: 9%;
+        filter: invert(1);
+    }
+
+    .close {
+        display: flex;
+    }
+
+    .banner_wrapper {
+        padding-inline: 0;
+    }
+
+    .details_inner {
+        flex-direction: column;
+    }
+
+    .details_left,
+    .details_right {
+        max-width: 100%;
+    }
+
+    .reason_wrapper .heading {
+        margin-bottom: 28px;
+        font-size: 24px;
+    }
+
+    .ingradient_wrapper {
+        flex-direction: column;
+    }
+
+    .ingradient_left {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .ingradient_right {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .product_wrapper {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .product_left,
+    .product_right {
+        max-width: 100%;
+    }
+
+    .footer_wrapper {
+        flex-wrap: wrap;
+    }
+
+    .footer_left {
+        max-width: 50%;
+    }
+
+    .footer_btm {
+        margin-top: 16px;
+    }
+
+    .footer {
+        padding-block: 40px;
+    }
+}
+
+/* media qury 767 */
+@media (max-width:767px) {
+    .topBar {
+        padding-block: 12px;
+    }
+
+    .ingradient_content .heading {
+        margin-bottom: 16px;
+    }
+
+    .banner_desc {
+        margin-bottom: 16px;
+    }
+
+    .faq_inner {
+        padding: 12px 32px;
+        margin-bottom: 32px;
+    }
+    .product_title {
+        margin-bottom: 12px;
+    }
+    .reviews_topBar p {
+        margin-bottom: 24px;
+    }
+
+    .reviews_info,
+    .review_form {
+        padding-block: 20px;
+    }
+
+    .reviews_mostSlct {
+        padding-block: 12px;
+    }
+
+    .reviews_desc {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .reviews_customer .heading {
+        margin-bottom: 18px;
+        font-size: 20px;
+    }
+
+    .reviews_topBar .heading {
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+
+    .ingradient_content {
+        padding-block: 16px;
+    }
+
+    .reason_iocn {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 16px;
+    }
+
+    .ingradient_list {
+        margin-top: 24px;
+    }
+
+    .ingradient_item {
+        margin-bottom: 12px;
+    }
+
+    .ingradient_RightTitle {
+        margin-bottom: 20px;
+    }
+
+    .footer_heading {
+        font-size: 28px;
+        margin-bottom: 16px;
+    }
+
+    .faq_wrapper .heading {
+        margin-bottom: 32px;
+        font-size: 28px;
+    }
+
+    .banner_tabBtns {
+        margin-bottom: 24px;
+    }
+
+    .faq {
+        padding-block: 48px;
+    }
+
+    .ingradient_desc {
+        margin-bottom: 16px;
+    }
+
+    .banner {
+        margin-bottom: 48px;
+    }
+
+    .details,
+    .reason,
+    .ingradient,
+    .product,
+    .faq,
+    .reviews {
+        margin-bottom: 48px;
+    }
+
+    .heading {
+        font-size: 28px;
+    }
+
+    .banner_heading {
+        font-size: 24px;
+    }
+
+    .reviews_details {
+        margin-bottom: 16px;
+    }
+
+    .btn_cart {
+        margin-top: 28px;
+    }
+
+    .reason_wrapper .heading {
+        margin-bottom: 24px;
+    }
+
+    .reason_sec {
+        max-width: 47%;
+    }
+
+    .footer_btm {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .footer {
+        padding-block: 32px;
+    }
+
+    .footer_languages {
+        align-items: flex-start;
+    }
+
+}
+
+/* media qury 575 */
+@media (max-width:575px) {
+    .heading {
+        font-size: 24px;
+    }
+
+    .faq {
+        padding-block: 32px;
+    }
+
+    .reviews_topBar .heading {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+
+    .btn_seeAll {
+        margin: 16px auto auto;
+        padding: 12px 16px;
+    }
+
+    .faq_inner {
+        padding: 12px 24px;
+        margin-bottom: 24px;
+    }
+
+    .faq_wrapper .heading {
+        margin-bottom: 24px;
+        font-size: 24px;
+    }
+
+    .banner_desc {
+        margin-bottom: 12px;
+    }
+
+    .ingradient_RightTitle {
+        margin-bottom: 16px;
+    }
+
+    .reviews_topBar p {
+        margin-bottom: 16px;
+    }
+
+    .banner {
+        margin-bottom: 32px;
+    }
+
+    .reviews_customer .heading {
+        margin-bottom: 16px;
+        font-size: 18px;
+    }
+    .product_title {
+        margin-bottom: 4px;
+    }
+    .reviews_most {
+        overflow: hidden;
+    }
+
+    .banner_tabBtns {
+        margin-bottom: 20px;
+    }
+
+    .footer_heading {
+        font-size: 26px;
+    }
+
+    .footer_title {
+        margin-bottom: 18px;
+    }
+
+    .banner_heading {
+        font-size: 20px;
+    }
+
+    .btn_cart {
+        margin-top: 16px;
+    }
+
+    .reason_wrapper .heading {
+        margin-bottom: 16px;
+    }
+
+    .reviews_details {
+        margin-bottom: 12px;
+    }
+
+    .details,
+    .reason,
+    .ingradient,
+    .product,
+    .faq,
+    .reviews {
+        margin-bottom: 32px;
+    }
+
+    .reason_sec {
+        max-width: 100%;
+    }
+
+    .reviews_customerLft,
+    .reviews_customerRgt,
+    .reviews_customerCntr {
+        max-width: 100%;
+    }
+
+    .reviews_customerWrap {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .reviews_rating {
+        max-width: 100%;
+    }
+
+    .footer_wrapper {
+        gap: 16px;
+        flex-direction: column;
+    }
+
+    .footer_sec {
+        max-width: 100%;
+    }
+
+    .payment_logos {
+        flex-wrap: wrap;
+    }
+
+    .payment_logos {
+        margin-block: 16px;
+    }
+
+    .footer {
+        padding-block: 24px;
+    }
+
+}
